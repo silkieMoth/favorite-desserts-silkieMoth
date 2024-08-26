@@ -4,7 +4,7 @@ library(rvest)
 
 fav_desserts <- read.csv(here("data", "fav_desserts.csv"))
 
-print("changing something here")
+print("changing something here again")
 
 # Check if that data folder exists and creates it if not
 dir.create("data", showWarnings = FALSE)
